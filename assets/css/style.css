@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+  display: flex;
+}
+.col-8{
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 66.66%;
+  margin-top: 80px;  
+}
+.col-4{
+width: 33.33%;
+  margin-top: 80px;  
+}
+.col-8 h1 {
+  width: 670px;
+  color: var(--Colors-Heading, #1e0e62);
+  font-family: "DM Sans";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.4px;
+}
+.p1 {
+  color: var(--Colors-Text, rgba(21, 20, 57, 0.4));
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.p2 {
+  width: 700px;
+  color: var(--Colors-Heading, #1e0e62);
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 20px;
+}
+.p3 {
+  width: 700px;
+  color: var(--Colors-Heading, #1e0e62);
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 29px;
+}
+.p4 {
+  color: var(--Colors-Heading, #1e0e62);
+  font-family: "DM Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  padding-top: 30px;
+}
+.p5 {
+  width: 700px;
+  color: var(--Colors-Text, rgba(21, 20, 57, 0.4));
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 35px;
+}
+.p6 {
+  color: var(--Colors-Text, rgba(21, 20, 57, 0.4));
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 26px;
+}
+.p7{
+  color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+width: 700px;
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+padding-top: 29px;
+}
+.p8{
+  color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+padding-top: 26px;
+}
+.p9{
+  width: 700px;
+  color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+padding-top: 29px;
+}
+.p10{
+  color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+font-family: "DM Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.img1{
+  padding-top: 52px;
+}
+.img2{
+  padding-top: 52px;
+}
+.div1{
+  display: flex;
+  margin-top: 25px;
+}
+.div2{
+  width: 370px;
+height: 186px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid #EBEAED;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.div3{
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  margin-left: 30px;
+}
+.send{
+  width: 80px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 100px;
+background:  #25DAC5;
+border: #25DAC5;
+}
+.email{
+  width: 220px;
+  border-radius: 100px;
+border: 2px solid var(--Colors-Grey, #EBEAED);
+padding-left: 24px;
+}
+.p11{
+  /* width: 181px; */
+  color: var(--Colors-Heading, #1E0E62);
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+padding-left: 19px;
+}
+.p12{
+  padding-top: 30px;
+padding-left: 30px;
+color: var(--Colors-Heading, #1E0E62);
+font-family: "DM Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+}
+.p13{
+  padding-top: 2px;
+padding-left: 30px;
+color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.p14{
+  color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+font-family: "DM Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+padding-left: 19px;
+}
+.load{
+  width: 130px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 100px;
+background:  #E93A7D;
+border: #E93A7D;
+margin-top: 33px;
+margin-bottom: 140px;
+}
+@media (max-width:1100px) {
+  .col-8{
+    width: 100%;
+  }
+  .col-4{
+    width: 100%;
+  }
+  .section{
+  padding-left: 200px;
+  }
+}
